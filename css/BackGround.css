@@ -1,10 +1,9 @@
 nav {
-    background-color: wheat;
     height: 80px;
     width: 100%;
 }
 li a {
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: bold;
     margin: 25px;
@@ -15,7 +14,7 @@ li {
     padding-right: 20px;
 }
 h1.logo {
-    color: white;
+    color: black;
     font-size: 30px;
     font-weight: bold;
     padding-left: 20px;
@@ -24,4 +23,17 @@ div.navA {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+body {
+    background: linear-gradient(to bottom, #fadee7 0%, white 100%);
+}
+div.footer {
+    text-align: center;
+    background-color: white;
+    border: solid linear-gradient(to top, #fadee7 0%, white 100%);;
+    padding: 5px;
+    margin-top: 30px;
+}
+p.Icon {
+    font-size: 50px;
 }
