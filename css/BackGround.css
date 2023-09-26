@@ -1,6 +1,27 @@
-body {
-    background-color: rgb(129, 85, 28);
+nav {
+    background-color: rgb(2, 236, 236);
+    height: 80px;
+    width: 100%;
 }
-div {
-    background-color: black;
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+h1.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+div.navA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
