@@ -1,0 +1,31 @@
+span {
+    font-size: 15px;
+}
+p.Icon {
+    font-size: 20px;
+}
+.left {
+    flex: 50%;
+    padding-bottom: 20px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+.right {
+    flex: 50%;
+    background-color: white;
+    border: inset white;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 300px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+img {
+    border-radius: 20px;
+    float: right;
+    margin-right: 20px;
+    border: inset white;
+}
+* {
+    font-family: 'Kanit', sans-serif;
+}
