@@ -29,11 +29,36 @@ body {
 }
 div.footer {
     text-align: center;
-    background-color: white;
-    border: solid linear-gradient(to top, #fadee7 0%, white 100%);;
+    background-color: linear-gradient(to top, #fadee7 0%, white 100%);
+    border: inset white;
     padding: 5px;
     margin-top: 30px;
+    border-radius: 50px;
 }
 p.Icon {
-    font-size: 50px;
+    font-size: 20px;
+}
+span {
+    font-size: 15px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.left {
+    flex: 50%;
+    background-color: white;
+    border-radius: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.right {
+    flex: 50%;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
