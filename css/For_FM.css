@@ -1,0 +1,38 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+span {
+    font-size: 15px;
+}
+.Icon {
+    font-size: 20px;
+}
+.left {
+    flex: 50%;
+    padding-bottom: 20px;
+}
+.right {
+    flex: 50%;
+    background-color: white;
+    border: inset white;
+    border-radius: 20px;
+    margin-right: 300px;
+    text-align: center;
+}
+img {
+    border-radius: 20px;
+    border: inset white;
+}
+.L {
+    margin-top: 30px;
+    margin-right: 20%;
+    width: 50%;
+}
+.R {
+    margin-left: 20%;
+    margin-top: 30px;
+    width: 50%;
+}
+.FinallY {
+    margin-top: 30%;
+}
