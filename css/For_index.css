@@ -1,5 +1,4 @@
 img {
-    padding-right: 10px;
     border-radius: 20px;
 }
 video {
@@ -9,19 +8,21 @@ video {
     flex: 50%;
     background-color: white;
     border-radius: 50px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-left: 100px;
     border: inset white;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .right {
     flex: 50%;
     background-color: white;
     border-radius: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 100px;
     border: inset white;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 span {
     font-size: 15px;

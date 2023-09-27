@@ -7,8 +7,8 @@ p.Icon {
 .left {
     flex: 50%;
     padding-bottom: 20px;
-    margin-top: 53px;
-    margin-bottom: 53px;
+    margin-top: 77px;
+    margin-bottom: 77px;
 }
 .right {
     flex: 50%;
@@ -17,8 +17,8 @@ p.Icon {
     padding-bottom: 20px;
     border-radius: 20px;
     margin-right: 300px;
-    margin-top: 53px;
-    margin-bottom: 53px;
+    margin-top: 77px;
+    margin-bottom: 77px;
 }
 img {
     border-radius: 20px;
