@@ -54,6 +54,8 @@ span {
     border-radius: 50px;
     margin-right: 100px;
     margin-left: 100px;
+    border: inset white;
+    padding-bottom: 20px;
 }
 .right {
     flex: 50%;
@@ -61,4 +63,13 @@ span {
     border-radius: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    border: inset white;
+    padding-bottom: 20px;
+}
+img {
+    padding-right: 10px;
+    border-radius: 20px;
+}
+video {
+    border-radius: 20px;
 }
