@@ -1,32 +1,63 @@
-nav {
-    height: 80px;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
     width: 100%;
+    }
 }
-li a {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 25px;
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
 }
-li {
-    display: inline-block;
-    list-style: none;
-    padding-right: 20px;
-}
-h1.logo {
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-    padding-left: 20px;
-}
-div.navA {
+
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+li {
+    display: inline;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+h1.logo {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
 body {
     background: linear-gradient(to bottom, #fadee7 0%, white 100%);
 }
+
 div.footer {
     text-align: center;
     background-color: linear-gradient(to top, #fadee7 0%, white 100%);
@@ -35,10 +66,12 @@ div.footer {
     margin-top: 30px;
     border-radius: 50px;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
     text-align: center;
     line-height: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
+  
