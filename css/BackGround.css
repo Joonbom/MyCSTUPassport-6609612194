@@ -29,7 +29,7 @@ li {
     color: black;
     font-size: 18px;
     font-weight: bold;
-    padding: 20px;
+    padding: 50px;
 }
 .logo {
     color: black;
@@ -45,9 +45,11 @@ body {
     background-color: linear-gradient(to top, #fadee7 0%, white 100%);
     border: inset white;
     border-radius: 50px;
+    margin-top: 80px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
   

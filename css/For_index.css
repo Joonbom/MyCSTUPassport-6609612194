@@ -9,12 +9,18 @@ video {
     border-radius: 50px;
     text-align: center;
     border: inset white;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
 }
 .right {
     background-color: white;
     border-radius: 50px;
     text-align: center;
     border: inset white;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
 }
 span {
     font-size: 15px;
@@ -25,4 +31,6 @@ span {
 * {
     font-family: 'Kanit', sans-serif;
 }
-
+.move {
+    padding: 10px;
+}
