@@ -10,8 +10,8 @@ video {
     text-align: center;
     border: inset white;
     margin: auto;
-    width: 75%;
-    padding: 10px;
+    margin-top: 1.5rem;
+    padding-bottom: 15px;
 }
 .right {
     background-color: white;
@@ -19,8 +19,8 @@ video {
     text-align: center;
     border: inset white;
     margin: auto;
-    width: 75%;
-    padding: 10px;
+    margin-top: 1.5rem;
+    padding-bottom: 15px;
 }
 span {
     font-size: 15px;
@@ -33,4 +33,7 @@ span {
 }
 .move {
     padding: 10px;
+}
+.row {
+    float: left;
 }
