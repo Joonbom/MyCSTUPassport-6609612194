@@ -28,6 +28,7 @@
         border: inset white;
         background-color: white;
         border-radius: 50px;
+        margin: 0.5rem 0;
     }
     .logo {
         border: inset white;
@@ -36,7 +37,7 @@
         padding: 20px;
     }
 }
-@media only screen and (min-width:800px) {
+@media only screen and (max-width:800px) {
     /*tablet*/
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -50,6 +51,14 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    .logo {
+        float: none;
+        border: inset black;
+    }
+    ul {
+        float: none;
+        border: inset black;
+    }
 }
 ul {
     float: left;
