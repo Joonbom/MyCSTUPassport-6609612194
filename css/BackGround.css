@@ -21,8 +21,7 @@
     }
     ul {
         flex-direction: column;
-        padding-left: 1rem;
-        text-align: center;
+        padding-right: 30px;
     }
     li{
         border: inset white;
@@ -31,8 +30,6 @@
         margin: 0.5rem 0;
     }
     .logo {
-        border: inset white;
-        background-color: white;
         border-radius: 50px;
         padding: 20px;
     }
@@ -53,24 +50,39 @@
     .col-s-12 {width: 100%;}
     .logo {
         float: none;
-        border: inset black;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        background: #f5c9d7;
+        border: groove #f5c9d7;
     }
-    ul {
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+    li {
         float: none;
-        border: inset black;
+        border: inset white;
+        background-color: white;
+        border-radius: 20px;
+        margin-right: 2rem;
     }
 }
 ul {
     float: left;
     display: flex;
     margin-top: 4rem;
-    justify-content: end;
+}
+li:hover {
+    background-color: #f5c9d7;
+    transition: 0.5s;
 }
 li {
     font-size: 20px;
     list-style: none;
     font-weight: bold;
-    margin-right: 10rem;
+    width: 100%;
+    text-align: center;
 }
 .logo {
     color: black;
